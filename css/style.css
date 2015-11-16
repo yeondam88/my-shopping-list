@@ -1,0 +1,84 @@
+/*------------------------------------------
+GENERAL
+------------------------------------------*/
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poiret One', sans-serif;
+}
+
+ul li {
+        list-style-type: none;
+}
+
+
+hr {
+        margin: 15px auto;
+        width: 40%;
+}
+/*------------------------------------------
+HEADER
+------------------------------------------*/
+
+header div.mast-head {
+        width: 100%;
+        display: inline-block;
+        background-color: #8ce3a9;
+        box-shadow: 0 6px #53dd8a;
+        margin-bottom: 6px;
+        text-align: center;
+        padding: 20px;
+}
+
+div.mast-head img.shop-logo {
+        padding: 20px;
+        width: 80px;
+        height: 80px;
+}
+
+div.mast-head h1 {
+        font-family: 'Poiret One', sans-serif;
+        color: #fff;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 0.15em;
+}
+
+/*------------------------------------------
+SECTION
+------------------------------------------*/
+
+section div.shopping-list h2 {
+        font-family: 'Poiret One', sans-serif;
+        text-align: center;
+}
+
+section div.item, section div.clear-button {
+        text-align: center;
+}
+
+section div.item form input {
+        padding: 10px 40px;
+}
+
+section div.clear-button button {
+        width: 40%;
+        text-align: center;
+        font-family: 'Poiret One';
+        font-size: 1.2em;
+        background-color: #8ce3a9;
+        padding: 15px 50px;
+        border-style: none;
+        color: #fff;
+        letter-spacing: 0.5em;
+}
+
+.clear-button button:hover {
+        background-color: #000;
+}
+
+.clear-button button:active {
+        background-color: #fff;
+        color: #000;
+}
