@@ -1,0 +1,62 @@
+/* media query is a set of conditions in which the code inside will be executed*/
+
+/*desktop first approach*/
+
+/*ipad lanscape / small laptop*/
+@media only screen and (max-width: 1024px) {
+      /*div.mast-head h1 {
+        font-size: 3em;
+      }
+      div.shopping-list h2 {
+        font-size: 3em;
+      }*/
+
+}
+
+/*ipad potrait*/
+@media only screen and (max-width: 768px) {
+      section div.mast-head h1 {
+        font-size: 3em;
+      }
+      section div.shopping-list h2 {
+        font-size: 0.95em;
+      }
+      section div.clear-button button {
+        width: 60%;
+        font-size: 0.5em;
+        letter-spacing: 0.25em;
+        padding: 10px 35px;
+      }
+      hr {
+        width: 60%;
+      }
+}
+
+/*iPhone landscape*/
+@media only screen and (max-width: 480px) {
+      section div.mast-head h1 {
+        font-size: 2em;
+      }
+      section div.shopping-list h2 {
+        font-size: 0.95em;
+      }
+      section div.clear-button button {
+        width: 70%;
+        font-size: 0.5em;
+        letter-spacing: 0.25em;
+        padding: 10px 35px;
+      }
+      hr {
+        width: 70%;
+      }
+}
+
+/*iPhone portrait*/
+@media only screen and (max-width: 320px) {
+      div.mast-head h1 {
+        font-size: 1.25em;
+      }
+      div.shopping-list h2 {
+        font-size: 0.5em;
+      }
+}

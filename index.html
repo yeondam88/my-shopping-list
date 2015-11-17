@@ -5,7 +5,10 @@
   <title>My Shopping List</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link href="css/style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu|Poiret+One' rel='stylesheet' type='text/css'>
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Poiret+One" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="Js/app.js"></script>
 </head>
 <body>
     <header>
@@ -19,13 +22,18 @@
           <h2>Add the items you need to below, Check them off as you go <br>delete them when you are done.</h2>
       </div>
       <div class="item">
-          <form>
             <input id="add-item" type="text" name="Add items" placeholder="Add items...">
-          </form>
+            <input id="add-button" type="submit" name="Add Button" value="+">
       </div>
       <hr/>
+      <div class="check-list">
+          <ul id="list-item">
+            <li><button class="checkbox">&#x2713;</button><span class="list">MILK</span><button class="delete" id="remove-button">x</button></li>
+            <li><button class="checkbox">&#x2713;</button><span class="list">CORN</span><button class="delete" id="remove-button">x</button></li>
+          </ul>
+      </div>
       <div class="clear-button">
-          <button>CLEAR LIST</button>
+          <button id="clear-all-items">CLEAR LIST</button>
       </div>
     </section>
     <footer>

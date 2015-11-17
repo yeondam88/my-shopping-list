@@ -12,11 +12,21 @@ ul li {
         list-style-type: none;
 }
 
-
 hr {
         margin: 15px auto;
         width: 40%;
 }
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 /*------------------------------------------
 HEADER
 ------------------------------------------*/
@@ -58,8 +68,60 @@ section div.item, section div.clear-button {
         text-align: center;
 }
 
-section div.item form input {
+section div.item input#add-item {
         padding: 10px 40px;
+        width: 30%;
+}
+
+section div.item input#add-button {
+        padding: 12px 15px;
+        background-color: white;
+        border-style: none;
+}
+
+section div.item input#add-button:hover {
+        padding: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #8ce3a9;
+        border-style: none;
+}
+
+div.check-list {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+}
+
+div.check-list .checked {
+        text-decoration: line-through;
+}
+
+div.check-list ul {
+        text-align: center;
+        display: block;
+}
+
+div.check-list ul li {
+        text-align: left;
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+div.check-list .delete {
+        float: right;
+        border-radius: 50%;
+        border-style: none;
+        background-color: aquamarine;
+
+}
+
+div.check-list .checkbox {
+        margin-right: 2rem;
+        border-radius: 50%;
+        border-style: none;
+        background-color:aquamarine; 
 }
 
 section div.clear-button button {
