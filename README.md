@@ -1,4 +1,4 @@
-# my-shopping-list
+# my-shopping-list (Thinkful Project)
 <h4>This project used the following skills : HTML, CSS, JavaScript</h4>
 
 The basic requirements for this app are :
